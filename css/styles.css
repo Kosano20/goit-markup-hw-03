@@ -147,7 +147,6 @@ img {
 
 .hero {
   max-width: 696px;
-  margin: 0 auto 30px;
 }
 
 .main-title {
@@ -157,6 +156,7 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  margin: 0 auto 30px;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -331,10 +331,6 @@ img {
   color: var(--gray);
 }
 
-.address {
-  margin-top: 20px;
-}
-
 .footer {
   background: var(--dark-gray);
   padding-top: 60px;
@@ -375,6 +371,10 @@ img {
   color: var(--blue);
 }
 
+.address {
+  margin-top: 20px;
+}
+
 .footer-mail {
   font-family: Roboto;
   font-style: normal;
@@ -406,6 +406,10 @@ img {
 }
 .footer-contact:hover {
   color: var(--blue);
+}
+
+.footer-address-item {
+  margin-bottom: 9px;
 }
 
 .portfolio {
@@ -516,23 +520,6 @@ img {
   background: var(--dark-gray);
 }
 
-.footer-logo-portfolio {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.5;
-  text-decoration: none;
-
-  letter-spacing: 0.03em;
-
-  color: var(--blue);
-}
-
-.footer-logo-portfolio > span {
-  color: var(--white);
-}
-
 .footer-address-portfolio {
   font-family: Roboto;
   font-style: normal;
@@ -581,6 +568,10 @@ img {
 
 .footer-contact-portfolio:hover {
   color: var(--blue);
+}
+
+.footer-list {
+  margin-bottom: 9px;
 }
 li {
   list-style-type: none;
