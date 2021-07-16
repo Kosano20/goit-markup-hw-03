@@ -400,6 +400,10 @@ img {
   justify-content: flex-start;
 }
 
+.portfolio-header {
+  border-bottom: 1px solid #ececec;
+}
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
