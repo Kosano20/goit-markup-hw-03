@@ -77,11 +77,11 @@ img {
 .nav {
   display: flex;
   align-items: center;
+  margin-left: 93px;
 }
 
 .nav-menu {
   display: flex;
-  margin-left: 93px;
 }
 
 .nav-menu .nav-link:not(:last-child) {
@@ -145,6 +145,11 @@ img {
   color: var(--white);
 }
 
+.hero {
+  max-width: 696px;
+  margin: 0 auto 30px;
+}
+
 .main-title {
   max-width: 696px;
   font-family: Roboto;
@@ -153,7 +158,6 @@ img {
   font-size: 44px;
   line-height: 1.36;
 
-  margin: 0 auto 30px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -187,6 +191,7 @@ img {
 
 .features {
   display: flex;
+  padding-bottom: 47px;
 }
 
 .features-list {
@@ -225,6 +230,11 @@ img {
   letter-spacing: 0.03em;
 
   color: var(--gray);
+}
+
+.occupation {
+  display: flex;
+  padding-top: 47px;
 }
 
 .occupation-list {
@@ -319,6 +329,10 @@ img {
   letter-spacing: 0.03em;
 
   color: var(--gray);
+}
+
+.address {
+  margin-top: 20px;
 }
 
 .footer {
@@ -429,6 +443,7 @@ img {
   background: var(--whitesmoke);
   box-shadow: 0px 4px 4px #00000026;
   border-radius: 4px;
+  border-color: transparent;
   padding: 6px 22px;
 
   font-family: Roboto;
